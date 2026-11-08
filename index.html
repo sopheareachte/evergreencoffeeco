@@ -97,7 +97,7 @@
   --radius-card:28px;
 }
 *,*::before,*::after{box-sizing:border-box}
-html{scroll-behavior:smooth;scroll-padding-top:96px;-webkit-text-size-adjust:100%}
+html{scroll-behavior:smooth;scroll-padding-top:96px;-webkit-text-size-adjust:100%;-webkit-tap-highlight-color:transparent}
 body{margin:0;background:var(--canvas);color:var(--ink);font-family:var(--sans);font-size:1.0625rem;line-height:1.55;font-optical-sizing:auto}
 img,svg{display:block;max-width:100%}
 a{color:var(--forest);text-decoration:underline;text-underline-offset:.18em;text-decoration-thickness:1.5px}
@@ -125,6 +125,16 @@ p{margin:0 0 1em}
 .btn-ghost{background:rgba(245,222,175,.14);color:var(--crema)}
 .btn-ghost:hover{background:rgba(245,222,175,.24);color:var(--crema)}
 .btn-row{display:flex;flex-wrap:wrap;gap:12px}
+.btn,.tab,.nav-toggle{transition:background-color .15s,color .15s,transform .1s}
+.btn:active,.tab:active,.nav-toggle:active{transform:scale(.97)}
+.btn-dark:active{background:var(--brown);color:var(--crema)}
+.btn-light:active{background:#ecd29f;color:var(--forest)}
+.btn-soft:active{background:#d5dfca;color:var(--forest)}
+.btn-ghost:active{background:rgba(245,222,175,.32);color:var(--crema)}
+.tab:active{background:rgba(245,222,175,.28)}
+.tab[aria-selected="true"]:active{background:#ecd29f}
+.nav-links a:active,.nav-panel a:active{background:#d5dfca;color:var(--ink)}
+.nav-toggle:active{background:#d5dfca}
 
 /* Floating capsule nav that hides on scroll down and returns on scroll up */
 .site-head{position:fixed;top:12px;left:0;right:0;z-index:40;pointer-events:none;transition:transform .35s cubic-bezier(.2,.7,.2,1)}
@@ -324,6 +334,7 @@ address{font-style:normal;font-size:1.15rem;line-height:1.5;margin-bottom:20px}
 @media (prefers-reduced-motion: reduce){
   html{scroll-behavior:auto}
   .site-head{transition:none}
+  .btn:active,.tab:active,.nav-toggle:active{transform:none}
   .steam path{animation:none;opacity:.9}
 }
 @media (forced-colors: active){
