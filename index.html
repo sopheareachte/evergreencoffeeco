@@ -235,6 +235,10 @@ p{margin:0 0 1em}
 .square .card{background:var(--sand)}
 .square .card h3{margin-bottom:10px}
 .square .card p{font-size:1.1rem;line-height:1.5}
+.scenes{gap:20px}
+.square .scene{padding:0;overflow:hidden;display:flex;flex-direction:column;margin:0}
+.scene-art{display:block;width:100%;height:auto;aspect-ratio:23/16;background:var(--sage)}
+.scene-body{padding:clamp(22px,3vw,32px)}
 .extras-row{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px 40px;margin-top:clamp(40px,6vw,72px)}
 .extras-row h3{font-size:1.3rem;margin-bottom:8px}
 .extras-row p{color:var(--body);margin:0}
@@ -873,13 +877,25 @@ address{font-style:normal;font-size:1.15rem;line-height:1.5;margin-bottom:20px}
   <div class="wrap">
     <div class="sec-head">
       <h2 id="square-title">Our front porch is the town square</h2>
-      <p>The library next door, the park and its gazebo, the shops around the plaza, and our tables in the shade of the arcade.</p>
+      <p>The library next door, the park and its tiled fountain, the shops around the plaza, and our tables in the shade of the arcade.</p>
     </div>
-    <div class="cards c2">
-      <div class="card"><h3>Weekday mornings</h3><p>Grab a fresh sandwich and a coffee on your way to work, or slow down with a latte after school drop-off. We open at 6:30.</p></div>
-      <div class="card"><h3>Wednesdays and Sundays</h3><p>The Evergreen Farmers Market sets up in the Village Square from 9 am to 1 pm. Grab a latte and a bagel and walk the stalls.</p></div>
-      <div class="card"><h3>After school</h3><p>The Village Square library branch is a few steps away. A Kids Hot Chocolate is 3.50, and homework goes faster with a muffin.</p></div>
-      <div class="card"><h3>All year round</h3><p>Summer brings free Friday-evening concerts at Music in the Square, and family events like the kids’ Halloween celebration keep the plaza lively.</p></div>
+    <div class="cards c2 scenes">
+      <article class="card scene">
+        <img class="scene-art" src="assets/illustrations/cafe-inside.svg" width="920" height="640" loading="lazy" decoding="async" alt="Drawing of the inside of Evergreen Coffee Co.: the menu board above a maple counter and red pastry case, red pendant lamps, and tables by tall sunny windows">
+        <div class="scene-body"><h3>Weekday mornings</h3><p>Grab a fresh sandwich and a coffee on your way to work, or slow down with a latte after school drop-off. We open at 6:30.</p></div>
+      </article>
+      <article class="card scene">
+        <img class="scene-art" src="assets/illustrations/square-fountain.svg" width="920" height="640" loading="lazy" decoding="async" alt="Drawing of the Evergreen Village Square fountain, a blue and white tiled pyramid with water jets, with queen palms, benches and lamp posts around it">
+        <div class="scene-body"><h3>By the fountain</h3><p>Take your cup over to the park and find a bench under the palms. The library is a few steps away, and homework goes faster with a Kids Hot Chocolate and a muffin.</p></div>
+      </article>
+      <article class="card scene">
+        <img class="scene-art" src="assets/illustrations/farmers-market.svg" width="920" height="640" loading="lazy" decoding="async" alt="Drawing of the farmers market: white tents over tables of peaches, lemons, plums, melons and vegetables, with shoppers on the brick sidewalk">
+        <div class="scene-body"><h3>Wednesdays and Sundays</h3><p>The Evergreen Farmers Market sets up in the Village Square from 9 am to 1 pm. Grab a latte and a bagel and walk the stalls.</p></div>
+      </article>
+      <article class="card scene">
+        <img class="scene-art" src="assets/illustrations/summer-nights.svg" width="920" height="640" loading="lazy" decoding="async" alt="Drawing of a summer evening concert on the square: a band on a small stage at sunset, string lights between palm trees and a crowd on the lawn">
+        <div class="scene-body"><h3>Summer nights</h3><p>Summer brings free Friday-evening concerts at Music in the Square, and family events like the kids’ Halloween celebration keep the plaza lively all year.</p></div>
+      </article>
     </div>
     <div class="extras-row">
       <div><h3>Room to stay</h3><p>Tables inside and under the arcade, free Wi-Fi and no rush. People work, study or meet friends here for the whole afternoon.</p></div>
