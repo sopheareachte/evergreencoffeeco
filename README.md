@@ -10,7 +10,7 @@ A one-page website for Evergreen Coffee Co. on Evergreen Village Square, San Jos
 | `404.html` | Friendly "page not found" page (GitHub Pages uses it automatically) |
 | `robots.txt`, `sitemap.xml` | Help search engines find and index the site |
 | `assets/` | Logo, favicons and the image shown when the link is shared |
-| `assets/illustrations/` | The four drawings in the town square section (inside the café, the fountain, the farmers market, summer nights) |
+| `assets/photos/` | Photos in the town square section, each as small and large WebP plus a JPEG fallback |
 
 ## Put it online with GitHub Pages
 

@@ -237,7 +237,7 @@ p{margin:0 0 1em}
 .square .card p{font-size:1.1rem;line-height:1.5}
 .scenes{gap:20px}
 .square .scene{padding:0;overflow:hidden;display:flex;flex-direction:column;margin:0}
-.scene-art{display:block;width:100%;height:auto;aspect-ratio:23/16;background:var(--sage)}
+.scene-art{display:block;width:100%;height:auto;aspect-ratio:23/16;object-fit:cover;background:var(--sage)}
 .scene-body{padding:clamp(22px,3vw,32px)}
 .extras-row{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px 40px;margin-top:clamp(40px,6vw,72px)}
 .extras-row h3{font-size:1.3rem;margin-bottom:8px}
@@ -641,31 +641,31 @@ address{font-style:normal;font-size:1.15rem;line-height:1.5;margin-bottom:20px}
         <div class="disc" aria-hidden="true">
           <svg viewBox="0 0 96 96"><g stroke="#243b22" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"><ellipse cx="46" cy="82" rx="32" ry="6" fill="#f5deaf"/><path d="M20 42h52v14a26 26 0 0 1-52 0z" fill="#fffcf2"/><path d="M72 48h5a9 9 0 0 1 0 18h-6" fill="none"/><ellipse cx="46" cy="42" rx="26" ry="6" fill="#500104"/><path d="M38 30c-5-6 5-10 0-17M50 30c-5-6 5-10 0-17" fill="none"/></g></svg>
         </div>
-        <div><h3>Mexican Mocha</h3><p>The mocha people rave about, hot or iced.</p><span class="price">Hot from 4.95, iced 6.50</span></div>
+        <div><h3>Mexican Mocha</h3><p>The mocha people rave about, hot or iced.</p><span class="price">Hot from 5.50, iced 7.25</span></div>
       </li>
       <li class="fav">
         <div class="disc" aria-hidden="true">
           <svg viewBox="0 0 96 96"><g stroke="#243b22" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"><path d="M26 22h40l-3 60a6 6 0 0 1-6 6H35a6 6 0 0 1-6-6z" fill="#c98b4e"/><path d="M26.6 22h38.8l-.8 14H27.4z" fill="#fffcf2"/><path d="M34 44c6 6 18-4 24 2" fill="none" stroke="#500104"/><path d="M66 36h6a8 8 0 0 1 0 16h-7" fill="none"/></g></svg>
         </div>
-        <div><h3>Dirty Chai</h3><p>Spiced chai latte with a shot of espresso.</p><span class="price">From 4.95</span></div>
+        <div><h3>Dirty Chai</h3><p>Spiced chai latte with a shot of espresso.</p><span class="price">From 5.50</span></div>
       </li>
       <li class="fav">
         <div class="disc" aria-hidden="true">
           <svg viewBox="0 0 96 96"><g stroke="#243b22" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"><path d="M12 58Q48 70 84 58Q80 76 48 78Q16 76 12 58z" fill="#e0a548"/><path d="M12 56Q48 66 84 56L84 62Q48 72 12 62z" fill="#f9e955"/><path d="M14 54Q48 62 82 54" fill="none" stroke="#500104" stroke-width="4"/><path d="M12 52Q20 22 48 20Q76 22 84 52Q48 62 12 52z" fill="#e0a548"/><path d="M34 24q-4 14 0 32M48 21v36M62 24q4 14 0 32" fill="none"/></g></svg>
         </div>
-        <div><h3>Bacon, Egg &amp; Cheese</h3><p>A breakfast-sandwich favorite, great on a croissant.</p><span class="price">7.95, cheese bagel or croissant +1.00</span></div>
+        <div><h3>Bacon, Egg &amp; Cheese</h3><p>A breakfast-sandwich favorite, great on a croissant.</p><span class="price">8.50, on a croissant +1.00</span></div>
       </li>
       <li class="fav">
         <div class="disc" aria-hidden="true">
           <svg viewBox="0 0 96 96"><g stroke="#243b22" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"><path d="M12 60q36 24 72 0z" fill="#d8a35b"/><path d="M12 54h72v6H12z" fill="#fffcf2"/><path d="M12 50q9-6 18 0t18 0 18 0 18 0v5H12z" fill="#f08a6c"/><path d="M12 48Q20 22 48 20Q76 22 84 48z" fill="#d8a35b"/><circle cx="34" cy="34" r="1.5" fill="#243b22"/><circle cx="50" cy="29" r="1.5" fill="#243b22"/><circle cx="62" cy="36" r="1.5" fill="#243b22"/></g></svg>
         </div>
-        <div><h3>Nova Lox</h3><p>Cream cheese, capers, onion, tomato and lox on the bread you pick.</p><span class="price">10.50</span></div>
+        <div><h3>Nova Lox</h3><p>Cream cheese, capers, onion, tomato and lox on the bread you pick.</p><span class="price">11.00</span></div>
       </li>
       <li class="fav">
         <div class="disc" aria-hidden="true">
           <svg viewBox="0 0 96 96"><g stroke="#243b22" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"><path d="M56 6l-6 26" fill="none" stroke-width="5"/><path d="M28 34L68 34L62 86Q48 90 34 86z" fill="#b9a3d6"/><path d="M26 36Q48 12 70 36z" fill="#fffcf2"/><path d="M32 54h33" fill="none" stroke="#fffcf2" stroke-width="3"/></g></svg>
         </div>
-        <div><h3>Taro / Coconut Smoothie</h3><p>Creamy and refreshing, blended to order in a 20 oz cup.</p><span class="price">6.95</span></div>
+        <div><h3>Taro / Coconut Smoothie</h3><p>Creamy and refreshing, blended to order in a 20 oz cup.</p><span class="price">7.95</span></div>
       </li>
       <li class="fav">
         <div class="disc" aria-hidden="true">
@@ -699,22 +699,22 @@ address{font-style:normal;font-size:1.15rem;line-height:1.5;margin-bottom:20px}
             <h3>Espresso bar</h3>
             <div class="sizes" aria-hidden="true"><span></span><span>S</span><span>M</span><span>L</span></div>
             <ul class="items">
-              <li class="it sz"><span class="nm">Cappuccino</span><span class="pr"><b data-p="4.25" data-s="Small"><i class="sr">small </i>4.25</b><b data-p="5.25" data-s="Medium"><i class="sr">medium </i>5.25</b><b data-p="5.95" data-s="Large"><i class="sr">large </i>5.95</b></span></li>
-              <li class="it sz"><span class="nm">“Rose”uccino</span><span class="pr"><b data-p="4.95" data-s="Small"><i class="sr">small </i>4.95</b><b data-p="5.95" data-s="Medium"><i class="sr">medium </i>5.95</b><b data-p="6.50" data-s="Large"><i class="sr">large </i>6.50</b></span><span class="ds">cappuccino with Mexican mocha</span></li>
-              <li class="it sz"><span class="nm">Latte</span><span class="pr"><b data-p="4.25" data-s="Small"><i class="sr">small </i>4.25</b><b data-p="5.50" data-s="Medium"><i class="sr">medium </i>5.50</b><b data-p="5.95" data-s="Large"><i class="sr">large </i>5.95</b></span></li>
-              <li class="it sz"><span class="nm">Caramel Latte*</span><span class="pr"><b data-p="4.75" data-s="Small"><i class="sr">small </i>4.75</b><b data-p="5.75" data-s="Medium"><i class="sr">medium </i>5.75</b><b data-p="6.25" data-s="Large"><i class="sr">large </i>6.25</b></span></li>
-              <li class="it sz"><span class="nm">Vanilla Latte*</span><span class="pr"><b data-p="4.75" data-s="Small"><i class="sr">small </i>4.75</b><b data-p="5.75" data-s="Medium"><i class="sr">medium </i>5.75</b><b data-p="6.25" data-s="Large"><i class="sr">large </i>6.25</b></span></li>
-              <li class="it sz"><span class="nm">Hazelnut Latte*</span><span class="pr"><b data-p="4.75" data-s="Small"><i class="sr">small </i>4.75</b><b data-p="5.75" data-s="Medium"><i class="sr">medium </i>5.75</b><b data-p="6.25" data-s="Large"><i class="sr">large </i>6.25</b></span></li>
-              <li class="it sz"><span class="nm">Caramel Macchiato</span><span class="pr"><b data-p="4.75" data-s="Small"><i class="sr">small </i>4.75</b><b data-p="5.75" data-s="Medium"><i class="sr">medium </i>5.75</b><b data-p="6.25" data-s="Large"><i class="sr">large </i>6.25</b></span></li>
-              <li class="it sz"><span class="nm">Chai Tea Latte</span><span class="pr"><b data-p="4.50" data-s="Small"><i class="sr">small </i>4.50</b><b data-p="5.75" data-s="Medium"><i class="sr">medium </i>5.75</b><b data-p="6.25" data-s="Large"><i class="sr">large </i>6.25</b></span></li>
-              <li class="it sz"><span class="nm">Dirty Chai</span><span class="pr"><b data-p="4.95" data-s="Small"><i class="sr">small </i>4.95</b><b data-p="5.95" data-s="Medium"><i class="sr">medium </i>5.95</b><b data-p="6.50" data-s="Large"><i class="sr">large </i>6.50</b></span></li>
+              <li class="it sz"><span class="nm">Cappuccino</span><span class="pr"><b data-p="4.50" data-s="Small"><i class="sr">small </i>4.50</b><b data-p="5.75" data-s="Medium"><i class="sr">medium </i>5.75</b><b data-p="5.95" data-s="Large"><i class="sr">large </i>5.95</b></span></li>
+              <li class="it sz"><span class="nm">“Rose”uccino</span><span class="pr"><b data-p="5.50" data-s="Small"><i class="sr">small </i>5.50</b><b data-p="6.50" data-s="Medium"><i class="sr">medium </i>6.50</b><b data-p="6.95" data-s="Large"><i class="sr">large </i>6.95</b></span><span class="ds">cappuccino with Mexican mocha</span></li>
+              <li class="it sz"><span class="nm">Latte</span><span class="pr"><b data-p="4.50" data-s="Small"><i class="sr">small </i>4.50</b><b data-p="5.75" data-s="Medium"><i class="sr">medium </i>5.75</b><b data-p="5.95" data-s="Large"><i class="sr">large </i>5.95</b></span></li>
+              <li class="it sz"><span class="nm">Caramel Latte*</span><span class="pr"><b data-p="5.25" data-s="Small"><i class="sr">small </i>5.25</b><b data-p="6.25" data-s="Medium"><i class="sr">medium </i>6.25</b><b data-p="6.95" data-s="Large"><i class="sr">large </i>6.95</b></span></li>
+              <li class="it sz"><span class="nm">Vanilla Latte*</span><span class="pr"><b data-p="5.25" data-s="Small"><i class="sr">small </i>5.25</b><b data-p="6.25" data-s="Medium"><i class="sr">medium </i>6.25</b><b data-p="6.95" data-s="Large"><i class="sr">large </i>6.95</b></span></li>
+              <li class="it sz"><span class="nm">Hazelnut Latte*</span><span class="pr"><b data-p="5.25" data-s="Small"><i class="sr">small </i>5.25</b><b data-p="6.25" data-s="Medium"><i class="sr">medium </i>6.25</b><b data-p="6.95" data-s="Large"><i class="sr">large </i>6.95</b></span></li>
+              <li class="it sz"><span class="nm">Caramel Macchiato</span><span class="pr"><b data-p="5.25" data-s="Small"><i class="sr">small </i>5.25</b><b data-p="6.25" data-s="Medium"><i class="sr">medium </i>6.25</b><b data-p="6.95" data-s="Large"><i class="sr">large </i>6.95</b></span></li>
+              <li class="it sz"><span class="nm">Chai Tea Latte</span><span class="pr"><b data-p="5.25" data-s="Small"><i class="sr">small </i>5.25</b><b data-p="6.25" data-s="Medium"><i class="sr">medium </i>6.25</b><b data-p="6.95" data-s="Large"><i class="sr">large </i>6.95</b></span></li>
+              <li class="it sz"><span class="nm">Dirty Chai</span><span class="pr"><b data-p="5.50" data-s="Small"><i class="sr">small </i>5.50</b><b data-p="6.50" data-s="Medium"><i class="sr">medium </i>6.50</b><b data-p="6.95" data-s="Large"><i class="sr">large </i>6.95</b></span></li>
               <li class="it sz"><span class="nm">Con Panna</span><span class="pr"><b data-p="3.00" data-s="Small"><i class="sr">small </i>3.00</b><b data-p="4.00" data-s="Medium"><i class="sr">medium </i>4.00</b><b data-p="5.00" data-s="Large"><i class="sr">large </i>5.00</b></span><span class="ds">espresso with whipped cream</span></li>
               <li class="it sz"><span class="nm">Espresso</span><span class="pr"><b data-p="2.50" data-s="Small"><i class="sr">small </i>2.50</b><b data-p="3.50" data-s="Medium"><i class="sr">medium </i>3.50</b><b data-p="4.50" data-s="Large"><i class="sr">large </i>4.50</b></span></li>
-              <li class="it sz"><span class="nm">Americano</span><span class="pr"><b data-p="3.50" data-s="Small"><i class="sr">small </i>3.50</b><b data-p="4.00" data-s="Medium"><i class="sr">medium </i>4.00</b><b data-p="5.00" data-s="Large"><i class="sr">large </i>5.00</b></span></li>
-              <li class="it sz"><span class="nm">Mocha</span><span class="pr"><b data-p="4.95" data-s="Small"><i class="sr">small </i>4.95</b><b data-p="5.95" data-s="Medium"><i class="sr">medium </i>5.95</b><b data-p="6.50" data-s="Large"><i class="sr">large </i>6.50</b></span></li>
-              <li class="it sz"><span class="nm">Mexican Mocha</span><span class="pr"><b data-p="4.95" data-s="Small"><i class="sr">small </i>4.95</b><b data-p="5.95" data-s="Medium"><i class="sr">medium </i>5.95</b><b data-p="6.50" data-s="Large"><i class="sr">large </i>6.50</b></span></li>
-              <li class="it sz"><span class="nm">White Mocha</span><span class="pr"><b data-p="4.95" data-s="Small"><i class="sr">small </i>4.95</b><b data-p="5.95" data-s="Medium"><i class="sr">medium </i>5.95</b><b data-p="6.50" data-s="Large"><i class="sr">large </i>6.50</b></span></li>
-              <li class="it sz"><span class="nm">Zebra Mocha</span><span class="pr"><b data-p="4.95" data-s="Small"><i class="sr">small </i>4.95</b><b data-p="5.95" data-s="Medium"><i class="sr">medium </i>5.95</b><b data-p="6.50" data-s="Large"><i class="sr">large </i>6.50</b></span></li>
+              <li class="it sz"><span class="nm">Americano</span><span class="pr"><b data-p="3.50" data-s="Small"><i class="sr">small </i>3.50</b><b data-p="4.50" data-s="Medium"><i class="sr">medium </i>4.50</b><b data-p="5.25" data-s="Large"><i class="sr">large </i>5.25</b></span></li>
+              <li class="it sz"><span class="nm">Mocha</span><span class="pr"><b data-p="5.50" data-s="Small"><i class="sr">small </i>5.50</b><b data-p="6.50" data-s="Medium"><i class="sr">medium </i>6.50</b><b data-p="6.95" data-s="Large"><i class="sr">large </i>6.95</b></span></li>
+              <li class="it sz"><span class="nm">Mexican Mocha</span><span class="pr"><b data-p="5.50" data-s="Small"><i class="sr">small </i>5.50</b><b data-p="6.50" data-s="Medium"><i class="sr">medium </i>6.50</b><b data-p="6.95" data-s="Large"><i class="sr">large </i>6.95</b></span></li>
+              <li class="it sz"><span class="nm">White Mocha</span><span class="pr"><b data-p="5.50" data-s="Small"><i class="sr">small </i>5.50</b><b data-p="6.50" data-s="Medium"><i class="sr">medium </i>6.50</b><b data-p="6.95" data-s="Large"><i class="sr">large </i>6.95</b></span></li>
+              <li class="it sz"><span class="nm">Zebra Mocha</span><span class="pr"><b data-p="5.50" data-s="Small"><i class="sr">small </i>5.50</b><b data-p="6.50" data-s="Medium"><i class="sr">medium </i>6.50</b><b data-p="6.95" data-s="Large"><i class="sr">large </i>6.95</b></span></li>
             </ul>
           </section>
         </div>
@@ -723,19 +723,19 @@ address{font-style:normal;font-size:1.15rem;line-height:1.5;margin-bottom:20px}
             <h3>Coffee, cocoa &amp; tea</h3>
             <div class="sizes" aria-hidden="true"><span></span><span>S</span><span>M</span><span>L</span></div>
             <ul class="items">
-              <li class="it sz"><span class="nm">House Coffee</span><span class="pr"><b data-p="2.75" data-s="Small"><i class="sr">small </i>2.75</b><b data-p="3.00" data-s="Medium"><i class="sr">medium </i>3.00</b><b data-p="3.15" data-s="Large"><i class="sr">large </i>3.15</b></span></li>
-              <li class="it sz"><span class="nm">Café au Lait</span><span class="pr"><b data-p="3.50" data-s="Small"><i class="sr">small </i>3.50</b><b data-p="4.00" data-s="Medium"><i class="sr">medium </i>4.00</b><b data-p="4.25" data-s="Large"><i class="sr">large </i>4.25</b></span></li>
-              <li class="it sz"><span class="nm">Hot Chocolate</span><span class="pr"><b data-p="4.25" data-s="Small"><i class="sr">small </i>4.25</b><b data-p="4.95" data-s="Medium"><i class="sr">medium </i>4.95</b><b data-p="5.50" data-s="Large"><i class="sr">large </i>5.50</b></span></li>
-              <li class="it sz"><span class="nm">Kids Hot Chocolate</span><span class="pr"><b data-p="3.50" data-s="One size"><i class="sr">one size </i>3.50</b><b class="na" aria-hidden="true">–</b><b class="na" aria-hidden="true">–</b></span></li>
-              <li class="it sz"><span class="nm">Hot Tea</span><span class="pr"><b data-p="2.75" data-s="One size"><i class="sr">one size </i>2.75</b><b class="na" aria-hidden="true">–</b><b class="na" aria-hidden="true">–</b></span></li>
+              <li class="it sz"><span class="nm">House Coffee</span><span class="pr"><b data-p="3.00" data-s="Small"><i class="sr">small </i>3.00</b><b data-p="3.25" data-s="Medium"><i class="sr">medium </i>3.25</b><b data-p="3.50" data-s="Large"><i class="sr">large </i>3.50</b></span></li>
+              <li class="it sz"><span class="nm">Café au Lait</span><span class="pr"><b data-p="3.95" data-s="Small"><i class="sr">small </i>3.95</b><b data-p="4.25" data-s="Medium"><i class="sr">medium </i>4.25</b><b data-p="4.50" data-s="Large"><i class="sr">large </i>4.50</b></span></li>
+              <li class="it sz"><span class="nm">Hot Chocolate</span><span class="pr"><b data-p="4.50" data-s="Small"><i class="sr">small </i>4.50</b><b data-p="4.95" data-s="Medium"><i class="sr">medium </i>4.95</b><b data-p="5.75" data-s="Large"><i class="sr">large </i>5.75</b></span></li>
+              <li class="it sz"><span class="nm">Kids Hot Chocolate</span><span class="pr"><b data-p="3.95" data-s="One size"><i class="sr">one size </i>3.95</b><b class="na" aria-hidden="true">–</b><b class="na" aria-hidden="true">–</b></span></li>
+              <li class="it sz"><span class="nm">Hot Tea</span><span class="pr"><b data-p="3.00" data-s="One size"><i class="sr">one size </i>3.00</b><b class="na" aria-hidden="true">–</b><b class="na" aria-hidden="true">–</b></span></li>
             </ul>
           </section>
           <section class="m-sec extras" data-menu-section="Make it yours">
             <h3>Make it yours</h3>
             <ul class="items">
-              <li class="it"><span class="nm">Extra Shot</span><span class="pr"><b data-p="1.00">+1.00</b></span></li>
+              <li class="it"><span class="nm">Extra Shot</span><span class="pr"><b data-p="1.25">+1.25</b></span></li>
               <li class="it"><span class="nm">Flavor Syrup</span><span class="pr"><b data-p="0.60">+0.60</b></span></li>
-              <li class="it"><span class="nm">Soy or Almond Milk</span><span class="pr"><b data-p="0.60">+0.60</b></span></li>
+              <li class="it"><span class="nm">Soy, Almond or Oat Milk</span><span class="pr"><b data-p="1.00">+1.00</b></span></li>
               <li class="it"><span class="nm">Collagen, per scoop</span><span class="pr"><b data-p="3.00">+3.00</b></span></li>
             </ul>
             <p class="m-note" style="margin:10px 0 0">* Ask for it sugar free.</p>
@@ -749,33 +749,33 @@ address{font-style:normal;font-size:1.15rem;line-height:1.5;margin-bottom:20px}
           <section class="m-sec" data-menu-section="Iced">
             <h3>Iced <small>20 oz</small></h3>
             <ul class="items">
-              <li class="it"><span class="nm">Latte</span><span class="pr"><b data-p="5.50">5.50</b></span></li>
-              <li class="it"><span class="nm">Caramel Latte</span><span class="pr"><b data-p="5.95">5.95</b></span></li>
-              <li class="it"><span class="nm">Vanilla Latte</span><span class="pr"><b data-p="5.95">5.95</b></span></li>
-              <li class="it"><span class="nm">Mocha / Zebra</span><span class="pr"><b data-p="6.50">6.50</b></span></li>
-              <li class="it"><span class="nm">White Mocha</span><span class="pr"><b data-p="6.50">6.50</b></span></li>
-              <li class="it"><span class="nm">Mexican Mocha</span><span class="pr"><b data-p="6.50">6.50</b></span></li>
-              <li class="it"><span class="nm">Chai Tea Latte</span><span class="pr"><b data-p="5.95">5.95</b></span></li>
-              <li class="it"><span class="nm">Cold Brew</span><span class="pr"><b data-p="4.25">4.25</b></span></li>
-              <li class="it"><span class="nm">Vietnamese Coffee</span><span class="pr"><b data-p="6.50">6.50</b></span></li>
-              <li class="it"><span class="nm">Iced Coffee</span><span class="pr"><b data-p="4.00">4.00</b></span></li>
-              <li class="it"><span class="nm">Iced Tea</span><span class="pr"><b data-p="3.50">3.50</b></span></li>
-              <li class="it"><span class="nm">Thai Iced Tea</span><span class="pr"><b data-p="5.50">5.50</b></span></li>
-              <li class="it"><span class="nm">Pink / Lemonade</span><span class="pr"><b data-p="5.00">5.00</b></span></li>
-              <li class="it"><span class="nm">Italian Soda</span><span class="pr"><b data-p="5.00">5.00</b></span></li>
+              <li class="it"><span class="nm">Latte / Cappuccino</span><span class="pr"><b data-p="5.75">5.75</b></span></li>
+              <li class="it"><span class="nm">Caramel Latte / Caramel Macchiato</span><span class="pr"><b data-p="6.50">6.50</b></span></li>
+              <li class="it"><span class="nm">Vanilla Latte / Hazelnut Latte</span><span class="pr"><b data-p="6.50">6.50</b></span></li>
+              <li class="it"><span class="nm">Mocha / Zebra</span><span class="pr"><b data-p="7.25">7.25</b></span></li>
+              <li class="it"><span class="nm">White Mocha</span><span class="pr"><b data-p="7.25">7.25</b></span></li>
+              <li class="it"><span class="nm">Mexican Mocha</span><span class="pr"><b data-p="7.25">7.25</b></span></li>
+              <li class="it"><span class="nm">Chai Tea Latte</span><span class="pr"><b data-p="6.50">6.50</b></span></li>
+              <li class="it"><span class="nm">Cold Brew</span><span class="pr"><b data-p="4.50">4.50</b></span></li>
+              <li class="it"><span class="nm">Vietnamese Coffee</span><span class="pr"><b data-p="6.95">6.95</b></span></li>
+              <li class="it"><span class="nm">Iced Coffee</span><span class="pr"><b data-p="4.50">4.50</b></span></li>
+              <li class="it"><span class="nm">Iced Tea</span><span class="pr"><b data-p="3.95">3.95</b></span></li>
+              <li class="it"><span class="nm">Thai Iced Tea</span><span class="pr"><b data-p="6.50">6.50</b></span></li>
+              <li class="it"><span class="nm">Pink Lemonade</span><span class="pr"><b data-p="5.95">5.95</b></span></li>
+              <li class="it"><span class="nm">Italian Soda</span><span class="pr"><b data-p="5.95">5.95</b></span></li>
             </ul>
           </section>
         </div>
         <div class="col">
-          <section class="m-sec" data-menu-section="Frapps" data-group-price="6.95">
-            <h3>Frapps <small>20 oz, 6.95 each</small></h3>
+          <section class="m-sec" data-menu-section="Frapps" data-group-price="7.95">
+            <h3>Frapps <small>20 oz, 7.95 each</small></h3>
             <ul class="names">
               <li>Mocha</li><li>Vanilla Latte</li><li>Vanilla</li><li>Caramel</li><li>Java Chip</li><li>Cookies &amp; Cream</li>
-              <li>Green Tea</li><li>Frozen Hot Chocolate</li><li>Coffee</li><li>Espresso</li><li>Mexican Spice</li><li>Spiced Chai</li>
+              <li>Green Tea Matcha</li><li>Frozen Hot Chocolate</li><li>Coffee</li><li>Espresso</li><li>Mexican Spice</li><li>Spiced Chai</li>
             </ul>
           </section>
-          <section class="m-sec" data-menu-section="Smoothies" data-group-price="6.95">
-            <h3>Smoothies <small>20 oz, 6.95 each</small></h3>
+          <section class="m-sec" data-menu-section="Smoothies" data-group-price="7.95">
+            <h3>Smoothies <small>20 oz, 7.95 each</small></h3>
             <ol class="smoothies">
               <li><span class="nm">Taro / Coconut</span></li>
               <li><span class="nm">Honey Dew</span></li>
@@ -798,32 +798,32 @@ address{font-style:normal;font-size:1.15rem;line-height:1.5;margin-bottom:20px}
         <div class="col">
           <section class="m-sec" data-menu-section="Breakfast sandwiches">
             <h3>Breakfast sandwiches</h3>
-            <p class="m-note">On a cheese bagel or croissant, add 1.00.</p>
+            <p class="m-note">On a croissant, or a pesto, jalapeño or cheese bagel, add 1.00.</p>
             <ul class="items">
-              <li class="it"><span class="nm">Egg &amp; Cheese</span><span class="pr"><b data-p="6.25">6.25</b></span></li>
-              <li class="it"><span class="nm">Breakfast Delight</span><span class="pr"><b data-p="6.95">6.95</b></span><span class="ds">egg, green onions, cheese</span></li>
-              <li class="it"><span class="nm">Ham, Egg &amp; Cheese</span><span class="pr"><b data-p="7.95">7.95</b></span></li>
-              <li class="it"><span class="nm">Turkey, Egg &amp; Cheese</span><span class="pr"><b data-p="7.95">7.95</b></span></li>
-              <li class="it"><span class="nm">Sausage, Egg &amp; Cheese</span><span class="pr"><b data-p="7.95">7.95</b></span></li>
-              <li class="it"><span class="nm">Bacon, Egg &amp; Cheese</span><span class="pr"><b data-p="7.95">7.95</b></span></li>
-              <li class="it"><span class="nm">Bacon, Ham, Egg &amp; Cheese</span><span class="pr"><b data-p="8.95">8.95</b></span></li>
-              <li class="it"><span class="nm">Bacon, Sausage, Egg &amp; Cheese</span><span class="pr"><b data-p="8.95">8.95</b></span></li>
-              <li class="it"><span class="nm">Breakfast Plate</span><span class="pr"><b data-p="8.50">8.50</b></span><span class="ds">bacon, egg, tomato, cucumber &amp; avocado, no bread</span></li>
+              <li class="it"><span class="nm">Egg &amp; Cheese</span><span class="pr"><b data-p="7.25">7.25</b></span></li>
+              <li class="it"><span class="nm">Breakfast Delight</span><span class="pr"><b data-p="7.50">7.50</b></span><span class="ds">egg, green onions, cheese</span></li>
+              <li class="it"><span class="nm">Ham, Egg &amp; Cheese</span><span class="pr"><b data-p="8.50">8.50</b></span></li>
+              <li class="it"><span class="nm">Turkey, Egg &amp; Cheese</span><span class="pr"><b data-p="8.50">8.50</b></span></li>
+              <li class="it"><span class="nm">Sausage, Egg &amp; Cheese</span><span class="pr"><b data-p="8.50">8.50</b></span></li>
+              <li class="it"><span class="nm">Bacon, Egg &amp; Cheese</span><span class="pr"><b data-p="8.50">8.50</b></span></li>
+              <li class="it"><span class="nm">Bacon, Ham, Egg &amp; Cheese</span><span class="pr"><b data-p="9.95">9.95</b></span></li>
+              <li class="it"><span class="nm">Bacon, Sausage, Egg &amp; Cheese</span><span class="pr"><b data-p="9.95">9.95</b></span></li>
+              <li class="it"><span class="nm">Breakfast Plate</span><span class="pr"><b data-p="9.50">9.50</b></span><span class="ds">bacon, egg, tomato, cucumber &amp; avocado, no bread</span></li>
             </ul>
           </section>
           <section class="m-sec" data-menu-section="Sandwiches">
             <h3>Sandwiches</h3>
-            <p class="m-note">On bagel, croissant, wheat, white or sourdough.</p>
+            <p class="m-note">On bagel, croissant, wheat, white or sourdough. Gluten-free sourdough and hummus available.</p>
             <ul class="items">
-              <li class="it"><span class="nm">Veggies</span><span class="pr"><b data-p="8.25">8.25</b></span><span class="ds">cream cheese, lettuce, tomato, onions, cucumber, avocado</span></li>
-              <li class="it"><span class="nm">BLT</span><span class="pr"><b data-p="8.50">8.50</b></span><span class="ds">mayo, bacon, lettuce, tomato</span></li>
-              <li class="it"><span class="nm">Tuna</span><span class="pr"><b data-p="8.95">8.95</b></span><span class="ds">mayo, lettuce, tomato, onions, cucumber, tuna</span></li>
-              <li class="it"><span class="nm">Salami</span><span class="pr"><b data-p="8.95">8.95</b></span><span class="ds">mayo, lettuce, tomato, onion, cucumber, salami, cheese</span></li>
-              <li class="it"><span class="nm">Pastrami</span><span class="pr"><b data-p="8.95">8.95</b></span><span class="ds">mayo, lettuce, tomato, onion, cucumber, pastrami, cheese</span></li>
-              <li class="it"><span class="nm">Roast Beef</span><span class="pr"><b data-p="8.95">8.95</b></span><span class="ds">mayo, lettuce, tomato, onion, cucumber, roast beef, cheese</span></li>
-              <li class="it"><span class="nm">Turkey Club</span><span class="pr"><b data-p="9.95">9.95</b></span><span class="ds">mayo, lettuce, tomato, onion, cucumber, turkey, bacon, cheese</span></li>
-              <li class="it"><span class="nm">Ham Club</span><span class="pr"><b data-p="9.95">9.95</b></span><span class="ds">mayo, lettuce, tomato, onions, cucumber, ham, bacon, cheese</span></li>
-              <li class="it"><span class="nm">Nova Lox</span><span class="pr"><b data-p="10.50">10.50</b></span><span class="ds">cream cheese, capers, onion, tomato, lox</span></li>
+              <li class="it"><span class="nm">Veggies</span><span class="pr"><b data-p="9.50">9.50</b></span><span class="ds">cream cheese, lettuce, tomato, onions, cucumber, avocado</span></li>
+              <li class="it"><span class="nm">BLT</span><span class="pr"><b data-p="9.95">9.95</b></span><span class="ds">mayo, bacon, lettuce, tomato</span></li>
+              <li class="it"><span class="nm">Tuna</span><span class="pr"><b data-p="9.95">9.95</b></span><span class="ds">mayo, lettuce, tomato, onions, cucumber, tuna</span></li>
+              <li class="it"><span class="nm">Salami</span><span class="pr"><b data-p="9.95">9.95</b></span><span class="ds">mayo, lettuce, tomato, onion, cucumber, salami, cheese</span></li>
+              <li class="it"><span class="nm">Pastrami</span><span class="pr"><b data-p="9.95">9.95</b></span><span class="ds">mayo, lettuce, tomato, onion, cucumber, pastrami, cheese</span></li>
+              <li class="it"><span class="nm">Roast Beef</span><span class="pr"><b data-p="9.95">9.95</b></span><span class="ds">mayo, lettuce, tomato, onion, cucumber, roast beef, cheese</span></li>
+              <li class="it"><span class="nm">Turkey Club</span><span class="pr"><b data-p="10.95">10.95</b></span><span class="ds">mayo, lettuce, tomato, onion, cucumber, turkey, bacon, cheese</span></li>
+              <li class="it"><span class="nm">Ham Club</span><span class="pr"><b data-p="10.95">10.95</b></span><span class="ds">mayo, lettuce, tomato, onions, cucumber, ham, bacon, cheese</span></li>
+              <li class="it"><span class="nm">Nova Lox</span><span class="pr"><b data-p="11.00">11.00</b></span><span class="ds">cream cheese, capers, onion, tomato, lox</span></li>
             </ul>
           </section>
         </div>
@@ -831,36 +831,39 @@ address{font-style:normal;font-size:1.15rem;line-height:1.5;margin-bottom:20px}
           <section class="m-sec" data-menu-section="Bagels">
             <h3>Bagels</h3>
             <ul class="items">
-              <li class="it"><span class="nm">Regular Bagel</span><span class="pr"><b data-p="2.25">2.25</b></span></li>
-              <li class="it"><span class="nm">Cheese Bagel</span><span class="pr"><b data-p="2.95">2.95</b></span></li>
-              <li class="it"><span class="nm">Pesto Bagel</span><span class="pr"><b data-p="3.25">3.25</b></span></li>
-              <li class="it"><span class="nm">Bagel with Cream Cheese</span><span class="pr"><b data-p="4.25">4.25</b></span></li>
-              <li class="it"><span class="nm">Bagel with Butter / Jam</span><span class="pr"><b data-p="3.50">3.50</b></span></li>
-              <li class="it"><span class="nm">Bagel with Jam + Peanut Butter</span><span class="pr"><b data-p="5.00">5.00</b></span></li>
+              <li class="it"><span class="nm">Regular Bagel</span><span class="pr"><b data-p="4.50">4.50</b></span></li>
+              <li class="it"><span class="nm">Cheese Bagel</span><span class="pr"><b data-p="5.50">5.50</b></span></li>
+              <li class="it"><span class="nm">Pesto Bagel</span><span class="pr"><b data-p="5.60">5.60</b></span></li>
+              <li class="it"><span class="nm">Jalapeño Cheese Bagel</span><span class="pr"><b data-p="5.50">5.50</b></span></li>
+              <li class="it"><span class="nm">Bagel with Butter</span><span class="pr"><b data-p="4.00">4.00</b></span></li>
+              <li class="it"><span class="nm">Bagel with Jam</span><span class="pr"><b data-p="4.25">4.25</b></span></li>
               <li class="it"><span class="nm">Bagel with Peanut Butter</span><span class="pr"><b data-p="4.25">4.25</b></span></li>
+              <li class="it"><span class="nm">Extra Cream Cheese</span><span class="pr"><b data-p="1.25">+1.25</b></span></li>
             </ul>
-            <p class="m-note" style="margin:10px 0 0">On a cheese bagel, add 1.00.</p>
+            <p class="m-note" style="margin:10px 0 0">Bagels come with cream cheese.</p>
           </section>
           <section class="m-sec" data-menu-section="Pastries">
             <h3>Pastries</h3>
             <ul class="items">
-              <li class="it"><span class="nm">Croissant</span><span class="pr"><b data-p="3.25">3.25</b></span></li>
-              <li class="it"><span class="nm">Flavored Croissant</span><span class="pr"><b data-p="3.50">3.50</b></span></li>
-              <li class="it"><span class="nm">Banana Bread</span><span class="pr"><b data-p="3.50">3.50</b></span></li>
+              <li class="it"><span class="nm">Donut</span><span class="pr"><b data-p="2.50">2.50</b></span></li>
+              <li class="it"><span class="nm">Flavored Croissant</span><span class="pr"><b data-p="4.25">4.25</b></span></li>
+              <li class="it"><span class="nm">Banana Bread</span><span class="pr"><b data-p="3.95">3.95</b></span></li>
+              <li class="it"><span class="nm">Spinach Feta</span><span class="pr"><b data-p="4.95">4.95</b></span></li>
               <li class="it"><span class="nm">Muffin</span><span class="pr"><b data-p="3.95">3.95</b></span></li>
-              <li class="it"><span class="nm">Coffee Cake</span><span class="pr"><b data-p="4.50">4.50</b></span></li>
+              <li class="it"><span class="nm">Coffee Cake</span><span class="pr"><b data-p="4.95">4.95</b></span></li>
               <li class="it"><span class="nm">Loaf Cake</span><span class="pr"><b data-p="3.50">3.50</b></span></li>
               <li class="it"><span class="nm">Danish</span><span class="pr"><b data-p="4.50">4.50</b></span></li>
-              <li class="it"><span class="nm">Loaded Oatmeal</span><span class="pr"><b data-p="6.50">6.50</b></span><span class="ds">oat milk, banana, raisin, almond, walnut, brown sugar</span></li>
+              <li class="it"><span class="nm">Loaded Oatmeal</span><span class="pr"><b data-p="6.95">6.95</b></span><span class="ds">milk, banana, raisin, almond, walnut, brown sugar</span></li>
             </ul>
           </section>
           <section class="m-sec extras" data-menu-section="Sandwich add-ons">
             <h3>Add to any sandwich</h3>
             <ul class="items">
               <li class="it"><span class="nm">Avocado</span><span class="pr"><b data-p="1.50">+1.50</b></span></li>
-              <li class="it"><span class="nm">Extra Meat</span><span class="pr"><b data-p="2.75">+2.75</b></span></li>
-              <li class="it"><span class="nm">Extra Cheese</span><span class="pr"><b data-p="0.95">+0.95</b></span></li>
-              <li class="it"><span class="nm">Cheese or Pesto Bagel / Croissant</span><span class="pr"><b data-p="1.00">+1.00</b></span></li>
+              <li class="it"><span class="nm">Extra Meat</span><span class="pr"><b data-p="3.00">+3.00</b></span></li>
+              <li class="it"><span class="nm">Extra Cheese</span><span class="pr"><b data-p="1.00">+1.00</b></span></li>
+              <li class="it"><span class="nm">Croissant, Pesto, Jalapeño or Cheese Bagel</span><span class="pr"><b data-p="1.00">+1.00</b></span></li>
+              <li class="it"><span class="nm">Gluten-free Sourdough</span><span class="pr"><b data-p="1.00">+1.00</b></span></li>
             </ul>
           </section>
         </div>
@@ -881,19 +884,19 @@ address{font-style:normal;font-size:1.15rem;line-height:1.5;margin-bottom:20px}
     </div>
     <div class="cards c2 scenes">
       <article class="card scene">
-        <img class="scene-art" src="assets/illustrations/cafe-inside.svg" width="920" height="640" loading="lazy" decoding="async" alt="Drawing of the inside of Evergreen Coffee Co.: the menu board above a maple counter and red pastry case, red pendant lamps, and tables by tall sunny windows">
+        <picture><source type="image/webp" srcset="assets/photos/cafe-inside-640.webp 640w, assets/photos/cafe-inside-920.webp 920w" sizes="(max-width: 640px) calc(100vw - 40px), (max-width: 1240px) 48vw, 550px"><img class="scene-art" src="assets/photos/cafe-inside-920.jpg" width="920" height="640" loading="lazy" decoding="async" alt="Inside Evergreen Coffee Co. in late-afternoon sun: wooden chairs around a table with a small succulent, the red pastry case and counter, the drinks fridge and tall windows by the door"></picture>
         <div class="scene-body"><h3>Weekday mornings</h3><p>Grab a fresh sandwich and a coffee on your way to work, or slow down with a latte after school drop-off. We open at 6:30.</p></div>
       </article>
       <article class="card scene">
-        <img class="scene-art" src="assets/illustrations/square-fountain.svg" width="920" height="640" loading="lazy" decoding="async" alt="Drawing of the Evergreen Village Square fountain, a blue and white tiled pyramid with water jets, with queen palms, benches and lamp posts around it">
+        <picture><source type="image/webp" srcset="assets/photos/square-fountain-640.webp 640w, assets/photos/square-fountain-920.webp 920w" sizes="(max-width: 640px) calc(100vw - 40px), (max-width: 1240px) 48vw, 550px"><img class="scene-art" src="assets/photos/square-fountain-920.jpg" width="920" height="640" loading="lazy" decoding="async" alt="The blue and white tiled fountain in Evergreen Village Square with queen palms, black lamp posts, benches and green hills behind"></picture>
         <div class="scene-body"><h3>By the fountain</h3><p>Take your cup over to the park and find a bench under the palms. The library is a few steps away, and homework goes faster with a Kids Hot Chocolate and a muffin.</p></div>
       </article>
       <article class="card scene">
-        <img class="scene-art" src="assets/illustrations/farmers-market.svg" width="920" height="640" loading="lazy" decoding="async" alt="Drawing of the farmers market: white tents over tables of peaches, lemons, plums, melons and vegetables, with shoppers on the brick sidewalk">
+        <picture><source type="image/webp" srcset="assets/photos/farmers-market-640.webp 640w, assets/photos/farmers-market-920.webp 920w" sizes="(max-width: 640px) calc(100vw - 40px), (max-width: 1240px) 48vw, 550px"><img class="scene-art" src="assets/photos/farmers-market-920.jpg" width="920" height="640" loading="lazy" decoding="async" alt="Shoppers in sun hats walking past farmers market stalls of fresh vegetables under white tents and shady trees"></picture>
         <div class="scene-body"><h3>Wednesdays and Sundays</h3><p>The Evergreen Farmers Market sets up in the Village Square from 9 am to 1 pm. Grab a latte and a bagel and walk the stalls.</p></div>
       </article>
       <article class="card scene">
-        <img class="scene-art" src="assets/illustrations/summer-nights.svg" width="920" height="640" loading="lazy" decoding="async" alt="Drawing of a summer evening concert on the square: a band on a small stage at sunset, string lights between palm trees and a crowd on the lawn">
+        <picture><source type="image/webp" srcset="assets/photos/summer-nights-640.webp 640w, assets/photos/summer-nights-920.webp 920w" sizes="(max-width: 640px) calc(100vw - 40px), (max-width: 1240px) 48vw, 550px"><img class="scene-art" src="assets/photos/summer-nights-920.jpg" width="920" height="640" loading="lazy" decoding="async" alt="A crowd gathered on the square at sunset for a summer movie night, with palm trees, glowing lamp posts and a big outdoor screen"></picture>
         <div class="scene-body"><h3>Summer nights</h3><p>Summer brings free Friday-evening concerts at Music in the Square, and family events like the kids’ Halloween celebration keep the plaza lively all year.</p></div>
       </article>
     </div>
